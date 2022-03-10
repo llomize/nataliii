@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    max-width: 1200px;
+    margin: auto;
+    text-decoration: none;
+    background: #000000a6;
+    box-shadow: 0px 2px 11px #000000e0;
+    border-radius: 2px;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+ul {
+    float: right;
+
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.shop {
+    padding: 13px 25px;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    background-color: #ffa000;
+    padding-top: 20px;
+}
+
+.bannerimage {
+    width: 100%;
+}
+
+.line1 {
+    position: relative;
+
+}
+
+.banner {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 0px;
+    right: 0px;
+    padding: 80px;
+    color: white;
+}
+
+.bannerH {
+    padding-bottom: 40px;
+}
+
+.bannerP {
+    font-size: larger;
+}
+
+.logo {
+    float: left;
+    max-height: 38px;
+}
+
+.services > h2 {
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.services > p {
+    color: gray;
+    padding: 20px;
+}
+
+.services {
+    text-align: center;
+}
+
+.ihp {
+    text-align: center;
+}
+
+.cart22 {
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    margin: 10px;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.p22 {
+    color: gray;
+    padding-top: 8px;
+}
+
+.port-image {
+    width: 165px;
+}
+
+.port-p {
+    color: gray;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: #8080802e;
+}
+
+.port {
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-p {
+    color: gray;
+    padding-top: 6px;
+    padding-bottom: 30px;
+}
+
+.mou {
+    border-radius: 50%;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+}
+
+.last {
+    width: 500px;
+    margin: auto;
+}
+
+.last1 > p {
+    color: gray;
+}
+
+.last3 {
+    text-align: left;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sami {
+    padding-bottom: 30px;
+}
+
+.first {
+    position: FIXED;
+    width: 100%;
+    Z-INDEX: 1;
+}
+.first *{
+    color:white;
+}
+
+.heli {
+    float: left;
+    padding: 10px;
+}
+
+.footerPic {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footerRowImg {
+    float: left;
+    width: 24%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footerRow {
+    float: left;
+    width: 38%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.footerRowImgII {
+    float: right;
+    width: 24%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footerRowII {
+    float: right;
+    width: 38%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.footerRow > h3 {
+    margin: 5px 0;
+}
+
+.footerRowII > h3 {
+    margin: 5px 0;
+}

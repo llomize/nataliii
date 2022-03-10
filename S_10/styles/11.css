@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nino;
+    src: url('../../fonts/bpg_nino_mtavruli_bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: bpg_glaho_sylfaenttf ;
+    src: url("../../fonts/bpg_glaho_sylfaen.ttf");
+}
+
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+
+}
+
+ul {
+    float: right;
+
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    font-family: nino;
+
+}
+
+header {
+    background-color: #346881;
+}
+
+.step2 {
+    background-color: #228b88;
+    text-align: center;
+}
+
+.firstP {
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.secondP {
+    padding: 45px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    color: white;
+    padding: 30px;
+    background-color: #000386;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.icon1 {
+    color: white;
+    padding: 20px;
+}
+
+.step3 {
+
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.structure {
+    text-align: center;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.strucM {
+    margin: 30px;
+    display: inline-block;
+    float: none !important;
+}
+
+.strucM > i {
+    padding: 60px 10px;
+}
+
+.struc1 {
+    color: #228b88;
+    background-color: deeppink;
+
+}
+
+.struc2 {
+    color: orange;
+    background-color: deepskyblue;
+
+}
+
+.struc3 {
+    color: grey;
+    background-color: black;
+
+}
+
+.struc4 {
+    color: orange;
+    background-color: #346881;
+
+}
+
+.struc5 {
+    color: yellow;
+    background-color: blue;
+
+}
+
+.struc6 {
+    color: lightslategray;
+    background-color: rosybrown;
+
+}
+
+.parent {
+    padding: 30px;
+    background-color: #228b88;
+    text-align: center;
+}
+
+.struca {
+    display: inline-block;
+}
+
+.icon2 {
+    display: inline-block;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.input {
+    padding: 4px 10px;
+    margin: 5px;
+    color: white;
+    border: rgba(0, 0, 0, 0.15) 2px solid;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #346881ba;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.last {
+    display: inline-block;
+}
+
+.pi {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.pi p {
+    display: inline-block;
+    padding: 5px;
+}
+
+.contact {
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+

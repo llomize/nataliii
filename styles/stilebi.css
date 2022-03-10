@@ -1,0 +1,16 @@
+#span1{
+    color:green
+}
+#span2{
+    color:darkred;
+}
+#span3{
+    color:#d4e01b;
+}
+#span4{
+    color:dodgerblue;
+    letter-spacing:20;
+}
+h2{
+    color: rgba(179, 12, 12, 0.83);
+}

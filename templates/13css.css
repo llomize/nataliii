@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+ul {
+    float: right;
+
+}
+header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body {
+    background-color: #44484a69;
+}
+.a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: inline-block;
+}
+.container {
+    background-color: grey;
+}
+.img1 {
+    width: 100%;
+    max-height: 150px;
+}
+.section {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.p {
+    color: gray;
+}
+.h4 {
+    color: rgba(0, 3, 134, 0.34);
+}
+.hp {
+    text-align: center;
+    background-color: #77889938;
+    padding: 10px;
+}
+.icon {
+    padding: 5px;
+    display: none;
+}
+.hp:hover {
+    background-color: deepskyblue;
+}
+.hp:hover .icon {
+    display: block;
+}
+.hp:hover .section {
+    margin-bottom: 0;
+}
+.div2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.39);
+    display: none;
+    top: 0;
+    text-align: center;
+}
+.div2 > p {
+    padding: 60px;
+    color: white;
+}
+.img3 {
+    position: relative;
+}
+.img3:hover .div2 {
+    display: block;
+}
+.h2 {
+    color: #346881;
+}
+.truck {
+    color: #346881;
+}
+.basic1 > p {
+    display: inline-block;
+}
+.basic {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+hr {
+    max-width: 50%;
+}
+.aa {
+    color: rgba(255, 255, 255, 0.63);
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+}
+.icon {
+    color: rgba(0, 0, 0, 0.34);
+}
+.basic {
+    background-color: rgba(0, 0, 0, 0.14);
+    padding: 20px;
+}
+.bg {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    margin-top: 300px;
+}
+.basic:hover {
+    background-color: deepskyblue;
+}
+
+.basic:hover * {
+    color: white;
+}

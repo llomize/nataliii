@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 davaleba</title>
+</head>
+<body>
+<main>
+    <form>
+        <label>სახელი</label> <br/>
+        <input type="text" name="Name" value="" checked> <br/> <br/>
+        <label>ასაკი</label><br/>
+        <input type="text" name="Name" value="" checked>
+        <hr/>
+        <p>აირჩიეთ ენა</p>
+        <label>html</label>
+        <input type="checkbox" name=""><br/>
+        <label>css</label>
+        <input type="checkbox" name=""><br/>
+        <label>javascript</label>
+        <input type="checkbox" name=""><br/>
+        <label>php</label>
+        <input type="checkbox" name=""><br/><br/>
+        <p>აირჩიეთ კურსი</p>
+        <label>FRONT-END</label>
+        <input type="checkbox" name=""><br/>
+        <label>BACK_END</label>
+        <input type="checkbox" name=""><br/>
+        <hr/>
+        <label>პაროლი</label><br/>
+        <input type="text" name="" placeholder="***"><br/><br/>
+        <label>ფერი</label>
+        <input type="color"> <br/><br/>
+        <hr/>
+        <section>
+            <label>თარიღი</label><br/><br/>
+            <input type="date" id="Date" name=""><br/>
+            <label>თვე/წელი</label><br/><br/>
+            <input type="month" id="Month" name=""><br/>
+            <label>კვირა</label><br/><br/>
+            <input type="week" id="Week" name=""><br/>
+            <label>საათი</label><br/><br/>
+            <input type="time" id="Time" name=""><br/>
+            <hr/>
+        </section>
+        <section>
+            <label>ძებნა:</label><br/>
+            <input type="text" name="" placeholder="ძებნა">
+            <br/>
+            <label>ტელ:</label><br/>
+            <input type="text" name="" placeholder="ტელ">
+            <br/>
+            <label>ელ ფოსტა:</label><br/>
+            <input type="text" name="" placeholder="ელ ფოსტა">
+            <br/><br/>
+            <label>რეინჯი</label><br/>
+            <label>0</label>
+            <input type="range" min="0" max="100" name="" id="Range">
+            <label>1000</label>
+            <hr/>
+        </section>
+        <section>
+            <label for="File">ატვირთეთ ფოტო</label> <br/>
+            <input type="file" id="File" name="" multiple> <br/><br/>
+            <label for="City"> აირჩიეთ ქალაქი</label><br/>
+            <select id="City" name="">
+                <option value="">აირჩიეთ...</option>
+                <option value="">თბილისი</option>
+                <option value="">ქუთაისი</option>
+                <option value="">ფოთი</option>
+                <option value="">ბათუმი</option>
+                <option value="">გორი</option>
+            </select>
+        </section>
+        <hr/>
+        <label>აღწერა</label><br/>
+        <textarea name="" cols="60" rows="20"></textarea> <br/>
+        <input type="submit" value="გაგზავნა">
+        <input type="reset" value="გასუფთავება">
+    </form>
+</main>
+</body>
+</html>
