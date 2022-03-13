@@ -227,3 +227,31 @@ body, ul, p, h1, h2 {
 .flex-2{
     flex-grow: 2;
 }
+.div-1{
+    width: 30%;
+    padding: 10px;
+}
+.line-1 input{
+    width:100%;
+    padding: 7px;
+}
+.line-1 select{
+    width: 100%;
+    padding: 7px;
+}
+.div-2{
+    width: 45%;
+    padding: 10px;
+}
+.div-3{
+    width: 30%;
+    padding: 10px;
+}
+.div-4{
+    width: 45%;
+    padding: 10px;
+}
+.div-5{
+    padding: 10px;
+}
+
