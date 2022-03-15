@@ -1,0 +1,87 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+body, ul, li, p, h1, h2{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.div-3{
+    padding: 10px;
+    background-color: #2b2b2b;
+    height: 100%;
+}
+.div-1{
+    width: 50%;
+    padding: 10px;
+    height: 50%;
+}
+.div-2{
+    width: 50%;
+    padding: 10px;
+    height: 50%;
+}
+
+.box-1{
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box-2{
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.line-2{
+    width: 50%;
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.line-1{
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+}
+.owl{
+    padding: 10px;
+    background-color: #2b2b2b;
+    height: 100%;
+}
+.pig-1{
+    padding: 5px;
+    width: 100%;
+
+}
+.pig-2{
+    padding: 5px;
+    width: 50%;
+
+}
+.pig-3{
+    padding: 5px;
+    width: 50%;
+
+}
+.color{
+    background-color: #6900c7;
+    height: 100%;
+}
