@@ -108,13 +108,13 @@ body, ul, p, h1, h2 {
     overflow: hidden;
     background-color: #346881;
     margin-left: 10px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     transition: max-height 0.5s ease-out;
 }
 
 .puzz:hover .puzzle {
-    max-height:500px;
+    max-height: 500px;
     transition: max-height 0.25s ease-in;
     /*display: inline-block !important;*/
     /*visibility: visible;*/
@@ -143,6 +143,7 @@ body, ul, p, h1, h2 {
 .pp {
     display: flex;
     justify-content: space-between;
+    padding: 10px 30px;
 }
 
 .nav2-2p {
@@ -165,9 +166,10 @@ body, ul, p, h1, h2 {
 }
 
 .line-1 > select {
-  /*min-width: 200px;*/
+    /*min-width: 200px;*/
     margin: 10px;
 }
+
 .line-1 > button {
 
     margin: 10px;
@@ -199,59 +201,110 @@ body, ul, p, h1, h2 {
     background-color: #dc392d;
 
 }
-.menu-3{
+
+.menu-3 {
     position: relative;
 }
-.menu-hidden2{
+
+.menu-hidden2 {
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    background-color:#324046;
+    background-color: #324046;
     transition: visibility 1s linear, opacity 1s linear;
-    top:0;
+    top: 0;
     left: 100%;
     min-width: 241px;
     display: flex;
     flex-direction: column;
 }
-.menu-3:hover .menu-hidden2{
+
+.menu-3:hover .menu-hidden2 {
     visibility: visible;
     opacity: 1;
 }
-.menu-hidden2>i:hover{
+
+.menu-hidden2 > i:hover {
     background-color: #dc392d;
 }
-.flex-1{
+
+.flex-1 {
     flex-grow: 1;
 }
-.flex-2{
+
+.flex-2 {
     flex-grow: 2;
 }
-.div-1{
-    width: 30%;
+
+.div-1 {
+    width: 20%;
     padding: 10px;
+    min-width: 100px;
 }
-.line-1 input{
-    width:100%;
-    padding: 7px;
-}
-.line-1 select{
+
+.line-1 input {
     width: 100%;
     padding: 7px;
 }
-.div-2{
-    width: 45%;
-    padding: 10px;
+
+.line-1 select {
+    width: 100%;
+    padding: 7px;
 }
-.div-3{
-    width: 30%;
+
+.div-2 {
+    width: 40%;
     padding: 10px;
+    min-width: 100px;
 }
-.div-4{
-    width: 45%;
-    padding: 10px;
-}
-.div-5{
+
+.div-3 {
+    width: 60%;
     padding: 10px;
 }
 
+.div-5 {
+    padding: 10px;
+}
+
+.line-1 input {
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid grey;
+}
+
+.line-1 select {
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.line-1 select:focus {
+    outline: 1px solid gray;
+}
+
+.line-1 input:focus {
+    outline: 1px solid gray;
+}
+
+.grid table, th, td {
+    border: 1px solid rgba(128, 128, 128, 0.54);
+    border-collapse: collapse;
+}
+.grid{
+    padding: 40px;
+    color: grey;
+}
+.grid th, td{
+    padding: 15px;
+    background-color: #ffffffd9;
+}
+.grid th{
+    color: black;
+}
+.td{
+    color: #33bafb;
+}
+.grid tr:nth-child(even){
+    background-color: #346881;
+}
