@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+.box-1{
+    display: flex;
+}
+.one{
+    height: 20px;
+    background-color: red;
+}
+.two{
+    height: 20px;
+    background-color: yellowgreen;
+}
+.three{
+    height: 20px;
+    background-color: deeppink;
+}
+.circle-1{
+    height: 20px;
+    background-color: #00ac69;
+}
