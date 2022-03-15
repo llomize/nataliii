@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+* {
+    box-sizing:border-box;
+}
+.content{
+    height: 100%;
+    display: flex;
+}
+.right{
+    height: 100%;
+    width: 33%;
+}
+.left{
+    height: 100%;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.big{
+    width: 100%;
+}
+.small{
+    width: 50%;
+}
+
+.color{
+    background: #98c0b5;
+    width: 100%;
+    height: 100%;
+}
+
+.big, .small, .right{
+    padding: 5px;
+}
+

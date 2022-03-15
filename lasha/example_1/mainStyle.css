@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small{
+    width: 33%;
+    padding: 5px;
+}
+.color{
+    background: grey;
+    height: 100%;
+}
