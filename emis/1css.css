@@ -59,7 +59,7 @@ body, ul, p, h1, h2 {
 
 .main {
     display: flex;
-    min-height: 100vh;
+
 }
 
 .nav-1 {
