@@ -8,6 +8,7 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="java.js"></script>
 </head>
 <body>
 <div class="color">
@@ -127,7 +128,7 @@
             </div>
             <div class="what">
                 <img src="naa.jpg">
-                <input type="text" value="What's your mind, Natali?" class="your-mind">
+                <input type="text" value="What's your mind, Natali?" class="your-mind" onfocus="hiden()">
                 <hr>
                 <div class="live-video pig23">
                     <i class="fas fa-video"></i>
@@ -144,13 +145,41 @@
             </div>
             <div class="post">
                 <div class="cow">
-                <img src="naa.jpg" class="naa">
-                <p>Natali Lomidze</p>
+                    <img src="naa.jpg" class="naa">
+                    <p>Natali Lomidze</p>
                 </div>
                 <i class="fa-solid fa-earth-americas"></i>
                 <img src="9_n.jpg" class="iphone">
             </div>
+            <div class="post">
+                <div class="cow">
+                    <img src="fb2.jpg" class="naa">
+                    <p>Mariam Papashvili</p>
+                </div>
+                <video width="520" height="440" controls>
+                    <source src="vi.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
+        <div class="open" id="open">
+            <div class="abs post">
+                <div class="abs-1 right">
+                    <p>Create post</p>
+                    <i class="fas fa-times" onclick="times()"></i>
+                </div>
+                <div class="abs-2 abs-1">
+                    <img src="naa.jpg" class="naa">
+
+                    <div class="user">
+                        <p>Natali Lomidze</p>
+                        <i class="fas fa-user">friends expect</i>
+                    </div>
+
+                </div>
+                <textarea class="text">What's your mind, Natali?</textarea>
+            </div>
+        </div>
+
     </div>
     <div class="main-3">
 

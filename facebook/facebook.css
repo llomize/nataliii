@@ -361,3 +361,52 @@ body {
 .cow>p{
     padding-left: 5px;
 }
+.abs{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+.abs-1{
+   display: flex;
+
+}
+.right{
+    justify-content: space-between;
+}
+.abs-1>p{
+    font-size: 22px;
+    align-items: center;
+    color: white;
+}
+.abs-1>i{
+    color: white;
+
+}
+.open{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.23);
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+.user i, p{
+    display: block;
+    color: white;
+}
+
+.text{
+    background-color: #4b4949;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    width: 98%;
+    border:none;
+    margin: 8px;
+}
