@@ -184,19 +184,21 @@ body {
 }
 
 .main-img-2 {
-    position: relative;
-    background-image: url(mar.jpg);
+
+    background-image: url(fb2.jpg);
     height: 100%;
     background-size: cover;
     border-radius: 17px;
+    opacity: 0.6;
 }
 
 .p-1 {
-    left: 20px;
-    top: 156px;
+    left: 6px;
+    top: 132px;
     font-weight: bold;
     color: white;
     position: absolute;
+
 }
 
 .pic-1 {
@@ -204,40 +206,158 @@ body {
     width: 100%;
     height: 200px;
 }
-.stores{
+
+.stores {
     height: 200px;
     display: flex;
 }
-.padding{
+
+.padding {
     width: 20%;
     height: 100%;
     padding: 5px;
-}
-.main-img-4{
     position: relative;
-    background-image: url(mar2.jpg);
+}
+
+.main-img-4 {
+    position: relative;
+    background-image: url(fb3.jpg);
+    height: 100%;
+    background-size: cover;
+    border-radius: 17px;
+    opacity: 0.6;
+}
+
+.main-img-5 {
+    position: relative;
+    background-image: url(fb1.jpg);
     height: 100%;
     background-size: cover;
     border-radius: 17px;
 }
-.main-img-5{
+
+.main-img-6 {
     position: relative;
-    background-image: url(mar3.jpg);
+    background-image: url(fb4.jpg);
     height: 100%;
     background-size: cover;
     border-radius: 17px;
 }
-.main-img-6{
+
+.main-img-7 {
     position: relative;
-    background-image: url(mar4.jpg);
+    background-image: url(fb5.jpg);
     height: 100%;
     background-size: cover;
     border-radius: 17px;
 }
-.main-img-7{
-    position: relative;
-    background-image: url(mar5.jpg);
-    height: 100%;
-    background-size: cover;
-    border-radius: 17px;
+
+.icon-img > img {
+    width: 100px;
+    height: 100px;
+}
+
+.password > i {
+    color: #1481f1;
+    font-size: 41px;
+}
+
+.icon-img {
+    display: flex;
+    justify-content: center;
+}
+
+.password {
+    color: white;
+    background-color: #404040;
+    border-radius: 14px;
+    padding: 14px;
+    margin-top: 21px;
+}
+
+.input-one {
+    background-color: #256b95;
+    color: #54a1d7;
+    border: none;
+    text-align: center;
+    border-radius: 9px;
+    padding: 5px 89px;
+    width: 233px;
+}
+
+.input-two {
+    color: white;
+    background-color: grey;
+}
+
+.wall {
+    width: 500px;
+    margin: auto;
+}
+.what{
+    color: white;
+    background-color: #404040;
+    border-radius: 14px;
+    padding: 6px;
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pig23{
+    display: flex;
+    padding: 8px;
+    width: 33%;
+}
+.what>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.your-mind{
+    width: 88%;
+    border-radius: 22px;
+    border: none;
+    background-color: gray;
+    color: #ffffff8c;
+    padding: 8px;
+}
+.live-video>i{
+    color: deeppink;
+    padding: 5px;
+}
+.photo>i{
+    color:green;
+    padding: 5px;
+}
+.feeling>i{
+    color: yellow;
+    padding: 5px;
+}
+.your-mind:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+}
+.post{
+    background-color: #404040;
+    border-radius: 14px;
+    margin-top: 15px;
+}
+.iphone{
+    width: 100%;
+
+}
+.naa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.cow{
+    display: flex;
+    padding: 8px;
+    color: white;
+    align-items: end;
+}
+.cow>p{
+    padding-left: 5px;
 }
