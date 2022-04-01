@@ -348,8 +348,8 @@ body {
 
 }
 .naa{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 .cow{
@@ -409,4 +409,41 @@ body {
     width: 98%;
     border:none;
     margin: 8px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.contact-icons{
+    color: white;
+}
+.contact-icons>i{
+   padding: 10px;
+}
+.bg-img5{
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.bg-1{
+    background-image: url("marika3_n.jpg");
+}
+.bg-2{
+    background-image: url("mariiam08_n.jpg");
+}
+.bg-3{
+    background-image: url("rezi32_o.jpg");
+}
+.green>img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.active{
+    display: flex;
+}
+.active>p{
+    padding: 8px;
 }
