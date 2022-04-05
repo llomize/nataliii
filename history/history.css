@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #361f6c;
+}
+header nav ul li {
+    display: inline-block;
+}
+.a{
+    text-decoration: none;
+    background-color: #361f6c;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration:15s;
+}
+@keyframes example {
+    from {background-color: rgba(0, 0, 0, 0.66);}
+    to {background-color: #ff0000;}
+}
+header{
+    background-color: #6900c7;
+    padding: 15px;
+}
+.a:hover{
+    background-color: black;
+    color: #6900c7;
+}
