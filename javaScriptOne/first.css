@@ -40,9 +40,15 @@ body, ul, p, h1, h2 {
 .result-div textarea{
     padding: 5px 10px;
     width: 100%;
-    color:red;
+    color:white;
     background-color: black;
     text-align: center;
     font-size: 20px;
     height: 400px;
+}
+.warmatebit-registracia{
+    color: green !important;
+}
+.warumatebeli{
+    color:red !important;;
 }

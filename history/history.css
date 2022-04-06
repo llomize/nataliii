@@ -23,6 +23,8 @@ header nav ul li {
     height: 100px;
     animation-name: example;
     animation-duration:15s;
+    transition: padding 4s linear ;
+
 }
 @keyframes example {
     from {background-color: rgba(0, 0, 0, 0.66);}
@@ -35,4 +37,5 @@ header{
 .a:hover{
     background-color: black;
     color: #6900c7;
+    padding: 10px 100px;
 }
