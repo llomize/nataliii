@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    width: 500px;
+    display: flex;
+    height: 500px;
+}
+.pic1{
+    width: 100%;
+    transition: width 3s linear;
+    height: 100%;
+    background-image: url("../../history/kar9.jpg");
+    background-size: cover;
+}
+.pic2{
+    width: 0;
+    transition: width 3s linear;
+    background-image: url("../../history/klint4.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+.main-div:hover .pic1{
+    width: 0;
+}
+.main-div:hover .pic2{
+    width: 100%;
+}
+
+
+
+
+.pic11{
+    width: 100%;
+    transition: width 0.5s linear;
+    height: 100%;
+    background-image: url("../../history/kar9.jpg");
+    background-size: cover;
+}
+.pic22{
+    width: 0;
+    transition: width 0.5s linear;
+    background-image: url("../../history/klint4.jpg");
+    height: 100%;
+    background-size: cover;
+}
+.pic33{
+    width: 0;
+    transition: width 0.5s linear;
+    background-image: url("../../history/gandhi-at-his-spinning-wheel.jpg");
+    height: 100%;
+    background-size: cover;
+}
+.pics-div{
+    height: 100%;
+    width: 97%;
+    display: flex;
+}
+
+.hid{
+    width: 0;
+}
+
+.vis{
+    width: 100%;
+}
