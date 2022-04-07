@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.a{
+    text-decoration: none;
+    background-color: #361f6c;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration:15s;
+    transition: padding 4s linear ;
+
+}
+@keyframes example {
+    from {background-color: rgba(0, 0, 0, 0.66);}
+    to {background-color: #ff0000;}
+}
+header{
+    background-color: #6900c7;
+    padding: 15px;
+}
+.a:hover{
+    background-color: black;
+    color: #6900c7;
+    padding: 10px 100px;
+}
