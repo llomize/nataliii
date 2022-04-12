@@ -43,3 +43,29 @@ header{
 .mit{
     padding: 67px 14px 8px 17px;
 }
+.mit-1>p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.width{
+    width: 40%;
+    background-color: #1e061e;
+    overflow: hidden;
+}
+.mit-2>p{
+    text-align: center;
+    font-size: 22px;
+    color: #5a4d88;
+    padding: 15px;
+}
+.show{
+    display: block !important;
+}
+.mit-1>button{
+    float: right;
+}
+.mit-2{
+    display: none;
+}
