@@ -6,6 +6,12 @@ body, ul, p, h1, h2 {
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url("unnamed.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 header{
     position: fixed;
     top: 0;
@@ -44,6 +50,8 @@ header{
     padding: 67px 14px 8px 17px;
     display: flex;
     align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .mit>div{
     margin: 10px;
@@ -55,7 +63,7 @@ header{
     color: blueviolet;
 }
 .width{
-    width: 40%;
+    width: 47%;
     background-color: #1e061e;
     overflow: hidden;
 }
@@ -75,9 +83,21 @@ header{
     display: none;
 }
 .width-2{
-    width: 40%;
+    width: 47%;
     background-color: #570757;
     overflow: hidden;
+}
+.width-3{
+    width: 100%;
+    background-color: #6900c7;
+    overflow: hidden;
+    padding: 20px;
+}
+.worldd{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
 .mit-1>button{
     float: right;
