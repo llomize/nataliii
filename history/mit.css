@@ -6,20 +6,23 @@ body, ul, p, h1, h2 {
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url("unnamed.jpg");
+
+body {
+    background-image: url("Earth-from-space-1-64e9a7c.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     width: 100%;
 }
-.a{
+
+.a {
     text-decoration: none;
     background-color: #361f6c;
     color: #ffffff;
@@ -29,81 +32,143 @@ header{
     width: 100px;
     height: 100px;
     animation-name: example;
-    animation-duration:15s;
-    transition: padding 4s linear ;
+    animation-duration: 15s;
+    transition: padding 4s linear;
 
 }
+
 @keyframes example {
-    from {background-color: rgba(0, 0, 0, 0.66);}
-    to {background-color: #ff0000;}
+    from {
+        background-color: rgba(0, 0, 0, 0.66);
+    }
+    to {
+        background-color: #ff0000;
+    }
 }
-header{
+
+header {
     background-color: #6900c7;
     padding: 15px;
 }
-.a:hover{
+
+.a:hover {
     background-color: black;
     color: #6900c7;
     padding: 10px 100px;
 }
-.mit{
+
+.mit {
     padding: 67px 14px 8px 17px;
     display: flex;
     align-items: start;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
-.mit>div{
+
+.mit > div {
     margin: 10px;
 }
-.mit-1>p{
+
+.mit-1 > p {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: blueviolet;
 }
-.width{
+
+.width {
     width: 47%;
     background-color: #1e061e;
-    overflow: hidden;
+
+    overflow: auto;
+    transition: max-height 0.5s ease-out;
+    box-shadow: 5px 5px 14px #d775ff;
+    border-radius: 20px;
 }
-.mit-2>p{
+
+.mit-2 > p {
     text-align: center;
     font-size: 22px;
     color: #5a4d88;
     padding: 15px;
 }
-.show{
+
+.show {
     display: block !important;
+
 }
-.mit-1>button{
+
+.mit-1 > button {
     float: right;
 }
-.mit-2{
+
+.mit-2 {
     display: none;
 }
-.width-2{
+
+.width-2 {
     width: 47%;
     background-color: #570757;
     overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 14px #d775ff;
+
 }
-.width-3{
-    width: 100%;
+.position{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: contents;
+    z-index: 2;
+}
+
+.width-3 {
+    width: 99%;
     background-color: #6900c7;
     overflow: hidden;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 14px #d775ff;
+    position: absolute;
+    left: 1px;
+    top: 279px;
+    z-index: 1;
 }
-.worldd{
+
+
+.worldd {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: black;
 }
-.mit-1>button{
+
+.mit-1 > button {
     float: right;
     border-radius: 10px;
     border: none;
     padding: 4px 17px 4px 19px;
     margin: 8px;
     background-color: #6900c7;
+}
+
+.worldd > button {
+    float: right;
+    border-radius: 10px;
+    border: none;
+    padding: 4px 17px 4px 19px;
+    margin: 8px;
+    background-color: rgb(150 41 171);
+}
+
+.world {
+    display: none;
+}
+
+.world > p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
 }

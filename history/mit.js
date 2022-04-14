@@ -80,3 +80,25 @@ function pandora(){
     }
 
 }
+function mith(){
+    var worlds =[];
+    worlds.push(document.getElementById("world-1"));
+    worlds.push(document.getElementById("world-2"));
+    worlds.push(document.getElementById("world-3"));
+    worlds.push(document.getElementById("world-4"));
+    showelement(worlds,3,0);
+    showelement(worlds,2,3);
+    showelement(worlds,1,2);
+    showelement(worlds,0,1);
+
+    if (!worlds[0].classList.contains("show") && !worlds[1].classList.contains("show") && !worlds[2].classList.contains("show") &&
+        !worlds[3].classList.contains("show")){
+        worlds[0].classList.add("show");
+    }
+}
+function showelement(worlds,index,show){
+    if(worlds[index].classList.contains("show")){
+        worlds[index].classList.remove("show");
+        worlds[show].classList.add("show");
+    }
+}
