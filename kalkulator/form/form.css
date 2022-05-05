@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.form > input {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #00c7be;
+    border: none;
+    border-bottom: 4px solid #4a76e5;
+    margin: 20px;
+    border-radius: 10px;
+}
+.form > input:focus{
+    color: #ffffff !important;
+    background-color: #202067 !important;
+}
+.form > button {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #00c7be;
+    border: none;
+    margin: 20px;
+    width: 145px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    align-items: end;
+}
