@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="shop.js"></script>
+    <link rel="stylesheet" type="text/css" href="shop.css">
+</head>
+<body>
+<div class="shopdiv">
+    <select id="dasaxeleba" >
+        <option value="დასახელება" >დასახელება</option>
+        <option value="apple">apple</option>
+        <option value="carrot">carrot</option>
+        <option value="pear">pear</option>
+        <option value="peach">peach</option>
+    </select>
+    <input placeholder="რაოდენობა" id="raodenoba" onchange="girebuleba()" type="text">
+    <input placeholder="ფასი" id="pasi" onchange="girebuleba()" type="text">
+    <input placeholder="ღირებულება"  id="girebuleba"  type="text" readonly>
+    <button onclick="buy()">გადახდა</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+.shopdiv>input{
+    border: 3px solid red;
+    font-size: 35px;
+    background-color: #e37d7d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.shopdiv>select{
+    border: 3px solid red;
+    font-size: 35px;
+    background-color: #e37d7d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.shopdiv>button{
+    border: 3px solid red;
+    font-size: 35px;
+    background-color: #e37d7d;
+    padding: 10px;
+    border-radius: 10px;
+}
