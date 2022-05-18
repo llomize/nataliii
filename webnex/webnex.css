@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #747474;
+    margin: 0;
+}
+.container{
+    width: 1700px;
+    background-color: #b7b2b2;
+    margin: auto;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 8px;
+}
+.header>a{
+    color: white;
+    text-decoration: none;
+}
+.bgpicture {
+    background-image: url(beautiful-flower-wallpaper.jpg);
+    width: 95%;
+    height: 128px;
+    margin: auto;
+    box-shadow: 6px 6px 7px #000000;
+}
+.text{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+.text2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.text3{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    background-color: #00000038;
+}
+.as>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.as{
+    padding: 41px 36px 10px 44px;
+    background-color: #00000038;
+    box-shadow: 6px 6px 7px #000000;
+}
+.as>a:hover{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 11px;
+    box-shadow: 6px 6px 7px #000000;
+}
+.laptop{
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.laptopdiv1{
+    display: flex;
+}
+.laptopdiv2{
+    display: flex;
+}
+.laptopdiv1>p{
+
+    font-weight: bold;
+}
+.laptopdiv2>p{
+
+    font-weight: bold;
+}
