@@ -59,3 +59,17 @@ function dabechdva(){
     }
     textarea.value = result;
 }
+function axali(){
+    var jami =0;
+    var div = document.getElementById("cont");
+    var buttons = [];
+    buttons.push('nata');
+    buttons.push('lasha');
+    buttons.push('mariami');
+
+    for(var i = 0; i<buttons.length; i++ ){
+       div.innerHTML = div.innerHTML + "<button>"+buttons[i]+"</button> ";
+    }
+
+
+}
