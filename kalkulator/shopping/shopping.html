@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shopping</title>
+    <script src="shopping.js"></script>
+    <link rel="stylesheet" type="text/css" href="shopping.css">
+</head>
+<body>
+<select id="select">
+    <option value="fruit">დასახელება</option>
+    <option value="fruit">ვაშლი</option>
+    <option value="fruit">მსხალი</option>
+    <option value="fruit">ატამი</option>
+    <option value="fruit">მარწყვი</option>
+    <option value="fruit">გოგრა</option>
+    <option value="fruit">გარგარი</option>
+    <option value="fruit">ყურძენი</option>
+</select>
+<input type="text" placeholder="რაოდენობა" id="input1" onchange="girebuleba()">
+<input type="text" placeholder="ფასი" id="input2" onchange="girebuleba()">
+<input type="text" placeholder="ღირებულება" id="input3" readonly>
+<button onclick="shopping()">ყიდვა</button>
+</body>
+</html>
