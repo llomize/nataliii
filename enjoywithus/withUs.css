@@ -6,7 +6,8 @@ body, ul, p, h1, h2 {
     margin: 0;
     padding: 0;
 }
-.head{
+
+.head {
     background-image: url("HD-Food-Backgrounds (1).jpg");
     display: flex;
 
@@ -17,16 +18,19 @@ body, ul, p, h1, h2 {
 
     position: relative;
 }
-.y{
+
+.y {
     display: flex;
     justify-self: left;
 }
-.black{
+
+.black {
 
     color: white;
 
 }
-.join{
+
+.join {
     margin: auto;
     width: 640px;
     padding: 100px;
@@ -36,17 +40,20 @@ body, ul, p, h1, h2 {
     font-size: 25px;
 
 }
-.bloor{
-position: absolute;
+
+.bloor {
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: space-evenly;
 }
-button{
+
+button {
     border-radius: 5px;
     background-color: #8b6013;;
     color: white;
@@ -54,13 +61,174 @@ button{
     padding: 4px;
     margin: 16px;
 }
-.line2-div > img{
-    width: 100px;
-    height: 100px;
+
+.line2-div > img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    padding: 25px;
 }
-.line2-div{
+
+.line2-div {
+    padding: 10px;
+    margin: 7px;
+}
+
+.line2 {
+    font-size: 24px;
     text-align: center;
-    padding: 14px;
-    margin: 9px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.line3 {
+    background-image: url("Free-Food-Images-Download.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.line3 > p {
+    background-color: #2b2b2bc9;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+}
+
+.bg {
+    background-color: #2b2b2b;
+    position: absolute;
+}
+
+.line4 {
+    display: flex;
+    flex-direction: unset;
+}
+
+.pictures {
+    width: 50%;
+    background-color: #80808073;
+    padding: 40px;
+
+}
+
+hr {
+    width: 30%;
+    color: #cbaf49;
+    border-bottom: groove;
+}
+
+.pictures > img {
+    width: 250px;
+    height: 180px;
+    padding: 15px;
+}
+
+.text {
+    width: 50%;
+    text-align: center;
+    padding: 87px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: #8080804a;
+}
+
+.lime5-img > img {
+    width: 218px;
+    height: 160px;
+}
+
+.line5-img {
+    width: 30%;
+
+}
+
+.line5 {
+    display: flex;
+    padding: 30px;
+    margin: 33px;
+}
+
+.line5-text {
+    width: 70%;
+    padding-left: 60px;
+    font-size: 19px;
+}
+.jon{
+    text-align: center;
+    font-weight: bold;
+}
+.line6{
+    background-image:url("129873-widescreen-bar-background-1920x1200.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 81px;
+}
+.jonn{
+    text-align: center;
+    font-weight: bold;
+    padding: 18px;
+    color: white;
+    font-size: 29px;
+    background-color: #0c0b0b;;
+}
+.email{
+    background-color: #f9f3f3;
+    border-radius: 10px;
+    text-align: center;
+    width: 42%;
+    border-color: #ffbc00;
+    height: 25px;
+    margin: 21px;
+}
+.buton{
+    width: 5%;
+}
+
+.but{
+    display: flex;
+}
+.but > button{
+    height: 31px;
+}
+.line7{
+    background-image: url(woman.jpg);
+    /*height: 300px;*/
+    background-position: 100% bottom;
+    padding: 67px;
+    margin-top: 100px;
+
+}
+.phr{
+    color: #f5f0f0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    border: 2px solid #ff8100;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff5e00;
+    height: 228px;
+}
+.oneP{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 19px;
+
 }
