@@ -31,15 +31,60 @@ body, ul, p, h1, h2 {
     max-width: 1200px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
 }
 
 .main-div-1 > img {
-    width: 180px;
-    height: 100px;
+    width: 285px;
+    height: 171px;
     padding: 5px;
 }
-.main-div-1{
+
+.main-div-1 {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #7a6e6e;
+    margin: 20px 5px 25px 29px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.main-text {
+    position: absolute;
+    left: 44px;
+    bottom: 9px;
+    font-size: 18px;
+    color: white;
+    background-color: #000000d1;
+    width: 76%;
+}
+
+.main-div-1:hover {
+    background-color: #00800075;
+}
+
+.footer {
+    background-color: #282727;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.footer-div1 {
+    padding: 5px;
+    max-width: 30%;
+}
+
+.footer-div2 {
+    padding: 5px;
+    max-width: 30%;
+}
+
+.footer-div3 {
+    padding: 5px;
+    max-width: 30%;
 }
