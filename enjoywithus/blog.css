@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00800075;
+    font-size: 23px;
+    padding: 8px;
+    color: white;
+}
+
+.projects {
+    background-color: #319f31e8;;
+
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.main-div {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.main-div-1 > img {
+    width: 180px;
+    height: 100px;
+    padding: 5px;
+}
+.main-div-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
