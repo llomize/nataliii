@@ -129,41 +129,48 @@ body {
     opacity: 0;
     transition: opacity 230ms ease-in-out;
 }
-.flex:hover .all-history{
+
+.flex:hover .all-history {
     opacity: 1;
     color: black;
     background-color: white;
 }
-.all-history > p:hover{
+
+.all-history > p:hover {
     background-color: red;
 }
+
 @keyframes history {
-    from{
-transform: rotate(0deg);
+    from {
+        transform: rotate(0deg);
     }
-    25%{
+    25% {
         transform: rotate(-45deg);
     }
-    to{
+    to {
         transform: rotate(360deg);
     }
 }
-.mmmm{
+
+.mmmm {
     animation: history 4s;
     animation-iteration-count: infinite;
 }
-.all-history > p{
-    padding:5px;
+
+.all-history > p {
+    padding: 5px;
 }
 
 .flex {
     display: flex;
     position: relative;
 }
-.contact-div{
+
+.contact-div {
     padding: 12px;
 }
-.contact-div-2{
+
+.contact-div-2 {
     text-align: center;
     box-shadow: 6px 6px 12px white;
     max-height: 0;
@@ -173,22 +180,41 @@ transform: rotate(0deg);
     transition-duration: 1s;
 
 }
-.contact-div-2 > p{
+
+.contact-div-2 > p {
     padding: 15px;
 }
-.contact:hover .contact-div-2{
+
+.contact:hover .contact-div-2 {
     max-height: 400px;
 }
-.contact-div-2 > p:hover{
+
+.contact-div-2 > p:hover {
     background-color: red;
 }
-.contact >p:hover{
+
+.contact > p:hover {
     height: 300px;
 
 }
-.hr >p{
+
+.hr > p {
     padding: 12px;
 }
 
+.list > table{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 23px;
+    margin: 10px;
+
+}
+.list >th{
+    border: 2px solid white;
+}
+table > tr{
+    border: 2px solid white;
+}
 
 
