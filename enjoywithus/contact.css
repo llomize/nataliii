@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.child {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    transition: transform 1s cubic-bezier(0.7, 0.4, 0.66, 1.0);
+}
+
+.parent:hover .child {
+    /*transform: translate(100%);*/
+    background-color: yellow;
+    animation: me 1s ease-in forwards;
+}
+@keyframes me {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateY(100%);
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
