@@ -68,17 +68,17 @@ body {
     color: black;
 }
 
+/*.main-4:hover {*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*}*/
+
+/*.main-4 {*/
+/*    opacity: 0;*/
+/*    transition: opacity 230ms cubic-bezier(0.1, 0.7, 1.0, 0.1);*/
+/*}*/
+
 .main-4:hover {
-    background-color: white;
-    color: black;
-}
-
-.main-2 {
-    opacity: 0;
-    transition: opacity 230ms cubic-bezier(0.1, 0.7, 1.0, 0.1);
-}
-
-.main-2:hover {
     opacity: 1;
 }
 
@@ -161,7 +161,7 @@ transform: rotate(0deg);
     position: relative;
 }
 .contact-div{
-    padding: 14px;
+    padding: 12px;
 }
 .contact-div-2{
     text-align: center;
@@ -185,6 +185,9 @@ transform: rotate(0deg);
 .contact >p:hover{
     height: 300px;
 
+}
+.hr >p{
+    padding: 12px;
 }
 
 

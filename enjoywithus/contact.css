@@ -7,20 +7,26 @@
     width: 400px;
     height: 400px;
     margin: auto;
+    /*overflow: hidden;*/
+    border-radius: 50%;
+
 }
 
 .child {
+    border-radius: 50%;
     background-color: green;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    transition: transform 1s cubic-bezier(0.7, 0.4, 0.66, 1.0);
+    width: 100px;
+    height: 100px;
+    /*margin: auto;*/
+    top: 0;
+    transition: transform 4s linear;
+
 }
 
 .parent:hover .child {
-    /*transform: translate(100%);*/
+    transform: translate(100%);
     background-color: yellow;
-    animation: me 1s ease-in forwards;
+    animation: me 3s ease-in forwards;
 }
 @keyframes me {
     0%{
