@@ -10,17 +10,27 @@ console.log(masivi[masivi.length-1]);
 
 
 
+var one = prompt("ასაკი");
+var two = prompt("სქესი");
+if(one >0 && two <18){
+    console.log("ახალგაზრდა")
+}
 
-var one = prompt("ასაკი")
-var two = prompt("სქესი")
-
-if(one>0 && one<18){
+else if(one < 60){
     console.log("მოზარდი")
-
 }
 
-else if(one<60){
-    console.log("ზრდასრული")
+else if(one<59 && two=="ქალი"){
+    console.log("პენსიონერი ქალი")
 }
-else if(one=>65 && two==კაცი || one=>65 && two==ქალი)
+else if(one < 65 && two=="კაცი"){
+    console.log("პენსიონერი კაცი")
+}
+else if(one > 64){
+    console.log("ახალგაზრდა")
+}
+else{
+    console.log("არასწორია")
+}
+
 
