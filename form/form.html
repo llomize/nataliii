@@ -1,108 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="form.css">
-    <link rel="stylesheet" type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <link rel="stylesheet" type="text/css" href="form.css">-->
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash;<script>&ndash;&gt;-->
+<!--&lt;!&ndash;    var masivi = [102,10,49,18,10,59,5];&ndash;&gt;-->
+<!--&lt;!&ndash;    console.log(masivi[0]);&ndash;&gt;-->
+<!--&lt;!&ndash;    if(masivi.length%2 == 0){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(masivi[masivi.length/2-1]);&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(masivi[masivi.length/2]);&ndash;&gt;-->
+<!--&lt;!&ndash;    }else {&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(masivi[Math.floor(masivi.length/2)])&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    console.log(masivi[masivi.length-1]);&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--&lt;!&ndash;<script>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    var one = prompt("ასაკი");&ndash;&gt;-->
+<!--&lt;!&ndash;    var two = prompt("სქესი");&ndash;&gt;-->
+<!--&lt;!&ndash;    if(one >0 && two <18){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+
+<!--&lt;!&ndash;    else if(one < 60){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("მოზარდი")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+
+<!--&lt;!&ndash;    else if(one<59 && two=="ქალი"){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("პენსიონერი ქალი")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    else if(one < 65 && two=="კაცი"){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("პენსიონერი კაცი")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    else if(one > 64){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    else{&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log("არასწორია")&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--<script>-->
+<!--    var one = Number(prompt())-->
+<!--    var two = Number(prompt())-->
+<!--    var three = Number(prompt())-->
+
+<!--    if(one > two){-->
+<!--        if( one > three){-->
+<!--            if(two > three){-->
+<!--                console.log(two)-->
+<!--            }-->
+<!--            else (-->
+<!--                console.log(three)-->
+<!--            )-->
+<!--        }-->
+<!--        else(-->
+<!--            console.log(one)-->
+<!--        )-->
+<!--    }-->
+<!--    if(one < two && one > three){-->
+<!--        console.log(one)-->
+<!--    }-->
+<!--    if(one < two && one < three && two < three){-->
+<!--        console.log(two)-->
+<!--    }-->
+<!--    if(one < two && one < three && two > three){-->
+<!--        console.log(three)-->
+<!--    }-->
+
+<!--</script>-->
+<!--<div class="main-div">-->
+<!--    <div class="title">-->
+<!--        <p>Responsive Registration Form</p>-->
+<!--    </div>-->
+<!--    <div class="email">-->
+<!--        <i class="fas fa-desktop"></i>-->
+<!--        <input type="email" placeholder="Email">-->
+<!--    </div>-->
+<!--    <div class="password">-->
+<!--        <i class="fas fa-desktop"></i>-->
+<!--        <input type="password" placeholder="Password">-->
+<!--    </div>-->
+<!--    <div class="re-type">-->
+<!--        <i class="fas fa-desktop"></i>-->
+<!--        <input type="password" placeholder=" Re-type password">-->
+<!--    </div>-->
+<!--    <div class="two-div">-->
+<!--        <div class="firstname">-->
+<!--            <i class="fas fa-desktop"></i>-->
+<!--            <input type="text" placeholder=" First NAme">-->
+<!--        </div>-->
+<!--        <div class="lastname">-->
+<!--            <i class="fas fa-desktop"></i>-->
+<!--            <input type="text" placeholder=" Last NAme">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="male-female">-->
+<!--        <div class="male">-->
+<!--            <input type="checkbox">-->
+<!--            <p>Male</p>-->
+<!--        </div>-->
+<!--        <div class="female">-->
+<!--            <input type="checkbox">-->
+<!--            <p>Female</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="selector-div">-->
+<!--        <select id="select" name="country">-->
+<!--            <option>select a country</option>-->
+<!--            <option>America</option>-->
+<!--            <option>London</option>-->
+<!--            <option>Mexico</option>-->
+<!--            <option>Tbilisi</option>-->
+<!--        </select>-->
+<!--    </div>-->
+<!--    <div class="check-box">-->
+<!--        <div class="check-1">-->
+<!--            <input type="checkbox">-->
+<!--            <p>I agree With Teams And Conditions</p>-->
+<!--        </div>-->
+<!--        <div class="check-2">-->
+<!--            <input type="checkbox">-->
+<!--            <p>I Want To Receive The Newsletter</p>-->
+<!--        </div>-->
+
+<!--    </div>-->
+<!--    <div class="button">-->
+<!--        <button>Register</button>-->
+<!--    </div>-->
 <script>
-    var masivi = [102,10,49,18,10,59,5];
-    console.log(masivi[0]);
-    if(masivi.length%2 == 0){
-        console.log(masivi[masivi.length/2-1]);
-        console.log(masivi[masivi.length/2]);
-    }else {
-        console.log(masivi[Math.floor(masivi.length/2)])
-    }
-    console.log(masivi[masivi.length-1]);
+
+    var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];
+    console.log(arr[0]);
+    console.log(arr[arr.length-1]);
+
+
+
+    //     var arr = [ 30, 1, 4, 6, 70, 100, 99, 80, 56, 800,765]
+// for(var x of arr){
+//     if(x%2==1 && arr[x%2==0]){
+//         console.log(arr[x])
+//     }
 </script>
-<script>
-
-    var one = prompt("ასაკი");
-    var two = prompt("სქესი");
-    if(one >0 && two <18){
-        console.log("ახალგაზრდა")
-    }
-
-    else if(one < 60){
-        console.log("მოზარდი")
-    }
-
-    else if(one<59 && two=="ქალი"){
-        console.log("პენსიონერი ქალი")
-    }
-    else if(one < 65 && two=="კაცი"){
-        console.log("პენსიონერი კაცი")
-    }
-    else if(one > 64){
-        console.log("ახალგაზრდა")
-    }
-    else{
-        console.log("არასწორია")
-    }
-</script>
-<div class="main-div">
-    <div class="title">
-        <p>Responsive Registration Form</p>
-    </div>
-    <div class="email">
-        <i class="fas fa-desktop"></i>
-        <input type="email" placeholder="Email">
-    </div>
-    <div class="password">
-        <i class="fas fa-desktop"></i>
-        <input type="password" placeholder="Password">
-    </div>
-    <div class="re-type">
-        <i class="fas fa-desktop"></i>
-        <input type="password" placeholder=" Re-type password">
-    </div>
-    <div class="two-div">
-        <div class="firstname">
-            <i class="fas fa-desktop"></i>
-            <input type="text" placeholder=" First NAme">
-        </div>
-        <div class="lastname">
-            <i class="fas fa-desktop"></i>
-            <input type="text" placeholder=" Last NAme">
-        </div>
-    </div>
-    <div class="male-female">
-        <div class="male">
-            <input type="checkbox">
-            <p>Male</p>
-        </div>
-        <div class="female">
-            <input type="checkbox">
-            <p>Female</p>
-        </div>
-    </div>
-    <div class="selector-div">
-        <select id="select" name="country">
-            <option>select a country</option>
-            <option>America</option>
-            <option>London</option>
-            <option>Mexico</option>
-            <option>Tbilisi</option>
-        </select>
-    </div>
-    <div class="check-box">
-        <div class="check-1">
-            <input type="checkbox">
-            <p>I agree With Teams And Conditions</p>
-        </div>
-       <div class="check-2">
-           <input type="checkbox">
-           <p>I Want To Receive The Newsletter</p>
-       </div>
-
-    </div>
-    <div class="button">
-        <button>Register</button>
-    </div>
-
 </div>
 </body>
 </html>
