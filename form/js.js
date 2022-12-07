@@ -40,10 +40,24 @@
 //     }
 // }
 
+//
+// var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];
+// console.log(arr[0]);
+// console.log(arr[arr.length-1]);
+var gamyopi =0;
+var ricxvi = Number(prompt())
+for( var i =1; ricxvi<=i; i++){
+    if(ricxvi % i==0){
+        gamyopi = gamyopi +1;
+    }
+    if(gamyopi >=2){
+        console.log("martivia");
+    }
+    else {
+        console.log("shedgenilia")
+    }
+}
 
-var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];
-console.log(arr[0]);
-console.log(arr[arr.length-1]);
 
 
 

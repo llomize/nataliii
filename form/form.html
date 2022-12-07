@@ -1,154 +1,230 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <link rel="stylesheet" type="text/css" href="form.css">-->
-<!--    <link rel="stylesheet" type="text/css"-->
-<!--          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">-->
-<!--</head>-->
-<!--<body>-->
+<!--&lt;!&ndash;<!DOCTYPE html>&ndash;&gt;-->
+<!--&lt;!&ndash;<html lang="en">&ndash;&gt;-->
+<!--&lt;!&ndash;<head>&ndash;&gt;-->
+<!--&lt;!&ndash;    <meta charset="UTF-8">&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" type="text/css" href="form.css">&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" type="text/css"&ndash;&gt;-->
+<!--&lt;!&ndash;          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">&ndash;&gt;-->
+<!--&lt;!&ndash;</head>&ndash;&gt;-->
+<!--&lt;!&ndash;<body>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;<script>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    var masivi = [102,10,49,18,10,59,5];&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    console.log(masivi[0]);&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    if(masivi.length%2 == 0){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log(masivi[masivi.length/2-1]);&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log(masivi[masivi.length/2]);&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }else {&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log(masivi[Math.floor(masivi.length/2)])&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    console.log(masivi[masivi.length-1]);&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;</script>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;<script>&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;    var one = prompt("ასაკი");&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    var two = prompt("სქესი");&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    if(one >0 && two <18){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;    else if(one < 60){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("მოზარდი")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;    else if(one<59 && two=="ქალი"){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("პენსიონერი ქალი")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    else if(one < 65 && two=="კაცი"){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("პენსიონერი კაცი")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    else if(one > 64){&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    else{&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        console.log("არასწორია")&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;    }&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;</script>&ndash;&gt;&ndash;&gt;-->
 <!--&lt;!&ndash;<script>&ndash;&gt;-->
-<!--&lt;!&ndash;    var masivi = [102,10,49,18,10,59,5];&ndash;&gt;-->
-<!--&lt;!&ndash;    console.log(masivi[0]);&ndash;&gt;-->
-<!--&lt;!&ndash;    if(masivi.length%2 == 0){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log(masivi[masivi.length/2-1]);&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log(masivi[masivi.length/2]);&ndash;&gt;-->
-<!--&lt;!&ndash;    }else {&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log(masivi[Math.floor(masivi.length/2)])&ndash;&gt;-->
+<!--&lt;!&ndash;    var one = Number(prompt())&ndash;&gt;-->
+<!--&lt;!&ndash;    var two = Number(prompt())&ndash;&gt;-->
+<!--&lt;!&ndash;    var three = Number(prompt())&ndash;&gt;-->
+
+<!--&lt;!&ndash;    if(one > two){&ndash;&gt;-->
+<!--&lt;!&ndash;        if( one > three){&ndash;&gt;-->
+<!--&lt;!&ndash;            if(two > three){&ndash;&gt;-->
+<!--&lt;!&ndash;                console.log(two)&ndash;&gt;-->
+<!--&lt;!&ndash;            }&ndash;&gt;-->
+<!--&lt;!&ndash;            else (&ndash;&gt;-->
+<!--&lt;!&ndash;                console.log(three)&ndash;&gt;-->
+<!--&lt;!&ndash;            )&ndash;&gt;-->
+<!--&lt;!&ndash;        }&ndash;&gt;-->
+<!--&lt;!&ndash;        else(&ndash;&gt;-->
+<!--&lt;!&ndash;            console.log(one)&ndash;&gt;-->
+<!--&lt;!&ndash;        )&ndash;&gt;-->
 <!--&lt;!&ndash;    }&ndash;&gt;-->
-<!--&lt;!&ndash;    console.log(masivi[masivi.length-1]);&ndash;&gt;-->
+<!--&lt;!&ndash;    if(one < two && one > three){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(one)&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    if(one < two && one < three && two < three){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(two)&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--&lt;!&ndash;    if(one < two && one < three && two > three){&ndash;&gt;-->
+<!--&lt;!&ndash;        console.log(three)&ndash;&gt;-->
+<!--&lt;!&ndash;    }&ndash;&gt;-->
+
 <!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="main-div">&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="title">&ndash;&gt;-->
+<!--&lt;!&ndash;        <p>Responsive Registration Form</p>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="email">&ndash;&gt;-->
+<!--&lt;!&ndash;        <i class="fas fa-desktop"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;        <input type="email" placeholder="Email">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="password">&ndash;&gt;-->
+<!--&lt;!&ndash;        <i class="fas fa-desktop"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;        <input type="password" placeholder="Password">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="re-type">&ndash;&gt;-->
+<!--&lt;!&ndash;        <i class="fas fa-desktop"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;        <input type="password" placeholder=" Re-type password">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="two-div">&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="firstname">&ndash;&gt;-->
+<!--&lt;!&ndash;            <i class="fas fa-desktop"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="text" placeholder=" First NAme">&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="lastname">&ndash;&gt;-->
+<!--&lt;!&ndash;            <i class="fas fa-desktop"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="text" placeholder=" Last NAme">&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="male-female">&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="male">&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="checkbox">&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>Male</p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="female">&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="checkbox">&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>Female</p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="selector-div">&ndash;&gt;-->
+<!--&lt;!&ndash;        <select id="select" name="country">&ndash;&gt;-->
+<!--&lt;!&ndash;            <option>select a country</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option>America</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option>London</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option>Mexico</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option>Tbilisi</option>&ndash;&gt;-->
+<!--&lt;!&ndash;        </select>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="check-box">&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="check-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="checkbox">&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>I agree With Teams And Conditions</p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="check-2">&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="checkbox">&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>I Want To Receive The Newsletter</p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="button">&ndash;&gt;-->
+<!--&lt;!&ndash;        <button>Register</button>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
 <!--&lt;!&ndash;<script>&ndash;&gt;-->
 
-<!--&lt;!&ndash;    var one = prompt("ასაკი");&ndash;&gt;-->
-<!--&lt;!&ndash;    var two = prompt("სქესი");&ndash;&gt;-->
-<!--&lt;!&ndash;    if(one >0 && two <18){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
+<!--    // var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];-->
+<!--    // console.log(arr[0]);-->
+<!--    // console.log(arr[arr.length-1]);-->
+<!--    //-->
+<!--    //-->
+<!--    //-->
+<!--    // var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];-->
+<!--    // var jami = 0;-->
+<!--    // for(var x of arr){-->
+<!--    //     jami = jami +x;-->
+<!--    // }-->
+<!--    // console.log(jami);-->
 
-<!--&lt;!&ndash;    else if(one < 60){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("მოზარდი")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
 
-<!--&lt;!&ndash;    else if(one<59 && two=="ქალი"){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("პენსიონერი ქალი")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
-<!--&lt;!&ndash;    else if(one < 65 && two=="კაცი"){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("პენსიონერი კაცი")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
-<!--&lt;!&ndash;    else if(one > 64){&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("ახალგაზრდა")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
-<!--&lt;!&ndash;    else{&ndash;&gt;-->
-<!--&lt;!&ndash;        console.log("არასწორია")&ndash;&gt;-->
-<!--&lt;!&ndash;    }&ndash;&gt;-->
+
+<!--    //     var arr = [ 30, 1, 4, 6, 70, 100, 99, 80, 56, 800,765]-->
+<!--// for(var x of arr){-->
+<!--//     if(x%2==1 && arr[x%2==0]){-->
+<!--//         console.log(arr[x])-->
+<!--//     }-->
 <!--&lt;!&ndash;</script>&ndash;&gt;-->
 <!--<script>-->
-<!--    var one = Number(prompt())-->
-<!--    var two = Number(prompt())-->
-<!--    var three = Number(prompt())-->
 
-<!--    if(one > two){-->
-<!--        if( one > three){-->
-<!--            if(two > three){-->
-<!--                console.log(two)-->
-<!--            }-->
-<!--            else (-->
-<!--                console.log(three)-->
-<!--            )-->
-<!--        }-->
-<!--        else(-->
-<!--            console.log(one)-->
-<!--        )-->
-<!--    }-->
-<!--    if(one < two && one > three){-->
-<!--        console.log(one)-->
-<!--    }-->
-<!--    if(one < two && one < three && two < three){-->
-<!--        console.log(two)-->
-<!--    }-->
-<!--    if(one < two && one < three && two > three){-->
-<!--        console.log(three)-->
-<!--    }-->
-
-<!--</script>-->
-<!--<div class="main-div">-->
-<!--    <div class="title">-->
-<!--        <p>Responsive Registration Form</p>-->
-<!--    </div>-->
-<!--    <div class="email">-->
-<!--        <i class="fas fa-desktop"></i>-->
-<!--        <input type="email" placeholder="Email">-->
-<!--    </div>-->
-<!--    <div class="password">-->
-<!--        <i class="fas fa-desktop"></i>-->
-<!--        <input type="password" placeholder="Password">-->
-<!--    </div>-->
-<!--    <div class="re-type">-->
-<!--        <i class="fas fa-desktop"></i>-->
-<!--        <input type="password" placeholder=" Re-type password">-->
-<!--    </div>-->
-<!--    <div class="two-div">-->
-<!--        <div class="firstname">-->
-<!--            <i class="fas fa-desktop"></i>-->
-<!--            <input type="text" placeholder=" First NAme">-->
-<!--        </div>-->
-<!--        <div class="lastname">-->
-<!--            <i class="fas fa-desktop"></i>-->
-<!--            <input type="text" placeholder=" Last NAme">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="male-female">-->
-<!--        <div class="male">-->
-<!--            <input type="checkbox">-->
-<!--            <p>Male</p>-->
-<!--        </div>-->
-<!--        <div class="female">-->
-<!--            <input type="checkbox">-->
-<!--            <p>Female</p>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="selector-div">-->
-<!--        <select id="select" name="country">-->
-<!--            <option>select a country</option>-->
-<!--            <option>America</option>-->
-<!--            <option>London</option>-->
-<!--            <option>Mexico</option>-->
-<!--            <option>Tbilisi</option>-->
-<!--        </select>-->
-<!--    </div>-->
-<!--    <div class="check-box">-->
-<!--        <div class="check-1">-->
-<!--            <input type="checkbox">-->
-<!--            <p>I agree With Teams And Conditions</p>-->
-<!--        </div>-->
-<!--        <div class="check-2">-->
-<!--            <input type="checkbox">-->
-<!--            <p>I Want To Receive The Newsletter</p>-->
-<!--        </div>-->
-
-<!--    </div>-->
-<!--    <div class="button">-->
-<!--        <button>Register</button>-->
-<!--    </div>-->
+<!--    // var arr= [34, 66, 77, 10, 5, 300, 200, 456, 900,20];-->
+<!--    // for(var x of arr) {-->
+<!--    //     var y = 0;-->
+<!--    //     for (var i = 1; i <= x; i++) {-->
+<!--    //         if (x % i == 0) {-->
+<!--    //             y = y + 1;-->
+<!--    //         }-->
+<!--    //     }-->
+<!--    //     if (y <= 2) {-->
+<!--    //         console.log(x+"martivia");-->
+<!--    //     } else {-->
+<!--    //         console.log(x+"shedgenilia");-->
+<!--    //     }-->
+<!--    // }-->
 <script>
+    // var arr=["aba", "ara", "igi", "bavshvi", "manqana", "aza","saxli",];
+    // for( var x of arr){
+    //     if(x[0] == x[x.length-1]){
+    //         console.log(x)
+    //     }
+    // }
+    // var arr=["saxli", "manqana", "uto", "toxi", "atami", "karebi", "tea", "datvi", "alubali"];
+    // for(var word of arr){
+    //     var xmovani =0;
+    //     var tanxmovani=0;
+    //     for(var i=0; i<word.length;i++){
+    //         if(word[i]=="a" || word[i]=="i" ||word[i]=="e" ||word[i]=="o" || word[i]=="u"){
+    //             xmovani++
+    //         }
+    //         else{
+    //             tanxmovani++
+    //         }
+    //     }
+    //     if(tanxmovani>xmovani){
+    //         console.log(word+" - metia tanxmovani")
+    //     }
+    //
+    // }
 
-    var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];
-    console.log(arr[0]);
-    console.log(arr[arr.length-1]);
-    var jami = 0;
-    for(var x of arr){
-        jami = jami +x;
+
+</script>
+<script>
+    // var arr=["aba", "ara", "igi", "bavshvi", "manqana", "aza","saxli"]
+    // // for(var i of arr){
+    // //    if(i.length>3){
+    // //        console.log(i)
+    // //     }
+    // // }
+    // for(var y=0; arr.length>y; y++){
+    //     for(var y=0; arr.length>y; y++){
+    //         if(y >3){
+    //             console.log(arr[y])
+    //         }
+    //     }
+    // }
+    var x="abccba"
+    for(var i=0; i<x.length/2;i++){
+        var z =x.length-1 -i;
+        if(x[i]==x[z]){
+            console.log(x[i])
+        }
+
+
+
+
     }
-    console.log(jami);
 
 
 
-    //     var arr = [ 30, 1, 4, 6, 70, 100, 99, 80, 56, 800,765]
-// for(var x of arr){
-//     if(x%2==1 && arr[x%2==0]){
-//         console.log(arr[x])
-//     }
 </script>
 </div>
 </body>
