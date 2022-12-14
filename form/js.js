@@ -44,20 +44,38 @@
 // var arr = [35, 56, 789,-45, 700, 456, 54, -9, 456, 30, 68, 900, 350];
 // console.log(arr[0]);
 // console.log(arr[arr.length-1]);
-var gamyopi =0;
-var ricxvi = Number(prompt())
-for( var i =1; ricxvi<=i; i++){
-    if(ricxvi % i==0){
-        gamyopi = gamyopi +1;
+// var gamyopi =0;
+// var ricxvi = Number(prompt())
+// for( var i =1; ricxvi<=i; i++){
+//     if(ricxvi % i==0){
+//         gamyopi = gamyopi +1;
+//     }
+//     if(gamyopi >=2){
+//         console.log("martivia");
+//     }
+//     else {
+//         console.log("shedgenilia")
+//     }
+// }
+var arr = ["natali", "lasha", "hidroelektrosadguri", "dzagli", "kata", "xe", "ana", "gveleshapi"]
+var x =0;
+var sityva ="";
+var y =1000;
+var patara="";
+for(var i of arr){
+    if(i.length>x){
+        x=i.length;
+        sityva = i;
     }
-    if(gamyopi >=2){
-        console.log("martivia");
-    }
-    else {
-        console.log("shedgenilia")
+    if (i.length<y){
+        y=i.length;
+        patara=i;
     }
 }
+console.log(sityva)
+console.log(patara)
 
+var myh1 =document.querySelector("#z")
 
 
 
