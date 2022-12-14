@@ -76,6 +76,7 @@ console.log(sityva)
 console.log(patara)
 
 var myh1 =document.querySelector("#z")
+var myh2 =document.querySelector("#y")
 
 
 
